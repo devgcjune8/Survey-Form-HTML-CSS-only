@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     Houston Rockets Fanbase Form
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+   <div class="row">
+     <div class="column">
+    <img src="https://teamcolorcodes.com/wp-content/uploads/2017/03/houston_rockets_1972-300x295.png?ezimgfmt=ng:webp/ngcb9">
+     </div>
+     <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/579px-Houston_Rockets.svg.png">
+    </div>
+       <h1 id="title">Houston Rockets </br> Fanbase Form</h1>
+    <p id="description">Tell us the reason why you are a Rockets fan.</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Nickname : <input id="name" type="text" required placeholder="You can use fake name for anonymity"> </label> 
+      <label id="email-label">Email : <input id="email" type="email" required placeholder="You can use fake email for anonymity"></label>
+      <label id="number-label">How many years have you been a fan? : <input id="number" type="number" required placeholder="For real" min="0" max="58"></label>
+      <label id="gender-label">Gender : 
+        <select id="dropdown">
+          <option value="">
+            (Select one)          
+          </option>
+          <option value="F">
+            Female         
+          </option>
+          <option value="M">
+            Male
+          </option>
+          </option>
+          <option value="O">
+            <p class="p-option">Others</p>
+          </option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <label id="years"><p>How many years have you been a fan?<p><input id="number" type="number" required placeholder="For real"></label>
+      </fieldset>
+      <fieldset>
+        <p id="reason-p">Reasons for being a Rockets fan</p>
+        <label class="reasons"><input type="checkbox" name="reason" class="inline" value="hometown"/>Houston is my hometown</label>
+        <span class="checkmark"></span>
+        <label class="reasons"><input type="checkbox" name="reason" class="inline" value="twin-towers"/>Twin Towers (Sampson and Olajuwon)</label>
+        <span class="checkmark"></span>
+        <label class="reasons"><input type="checkbox" name="reason" class="inline" value="94-94"/>Fell in love between the 1994/1995 championships</label>
+        <span class="checkmark"></span>
+        <label class="reasons"><input type="checkbox" name="reason" class="inline" value="harden"/>James Harden Era</label>
+        <span class="checkmark"></span>
+        <label class="reasons"><input type="checkbox" name="reason" class="inline" value="pick-random"/>I picked a random team</label>
+        <span class="checkmark"></span>
+        <label class="reasons"> <input type="checkbox" name="reason" class="inline" value="specific"/>Others, type it out to be more specific
+        <textarea  name="bio" rows="5" width="100%" placeholder="Type here to be more specific..." class="inline"></textarea>
+        </label>
+        <span class="checkmark"></span>
+      </fieldset>
+      <fieldset>
+        <p>The Rockets' most hated rival by you: </p>
+        <label><input type="radio" name="rival" class="inline" value="hometown"/>Warriors</label>
+        <label><input type="radio" name="rival" class="inline" value="sas"/>San Antonio Spurs</label>
+        <label><input type="radio" name="rival" class="inline" value="sea-okc"/>Seattle Supersonics/Oklahoma Thunder</label>
+        <label><input type="radio" name="rival" class="inline" value="mavs"/>Dallas Mavericks</label>
+        <label><input type="radio" name="rival" class="inline" value="jazz"/>Utah Jazz</label>
+        <label> <input type="radio" name="rival" class="inline" value="specific-rival"/>Others, type the team
+        <textarea  name="bio" rows="1" cols="20" placeholder="Your most hated team as a Rockets fan..." class="inline"></textarea>
+          
+        </label>
+        
+
+      <input type="submit" value="Click here to submit" id="submit">
+
+    </form>
+    </body>
+   
+
+</html>
